@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+}
+
+.footer-contact {
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 22px;
+    color: #333333;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 22px;
+    color: #333333;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    padding-left: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+}
+
+footer ul a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+footer ul a:hover {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+
+/*Media Queries*/
+@media (max-width: 992px) {
+    .footer-icons {
+        margin-bottom: 20px;
+        align-items: center;
+    }
+  }
+@media (max-width: 768px) {
+    .footer-icons {
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}
